@@ -1,0 +1,20 @@
+<ion-view view-title="Logical Puzzles">
+  <ion-content>
+
+      
+      <br>
+<ul class="cate-lv1">
+ <center>  <h2>Logical Puzzles Questions</h2></center> 
+	<br>
+<li>
+<a class="item-background cate-lv1-item" ng-repeat="service in services" href="#/app/listing/{{service.id}}" style="background: url(img/category/{{service.img}}) no-repeat; background-size: cover;">
+                <div class="item-wrapper">
+                    <h2>{{service.title}}</h2>
+                   
+                </div>
+            </a>
+            </li>
+        </ul>
+    
+  </ion-content>
+</ion-view>
